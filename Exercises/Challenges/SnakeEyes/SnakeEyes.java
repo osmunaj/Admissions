@@ -33,7 +33,9 @@ public class SnakeEyes{
                     moreThanFourRoles += 1;
                 }
             }
+        
             
+
             totalScore += score;
             totalNumberOfRoles += numberOfRoles;
             gamesPlayed += 1;
