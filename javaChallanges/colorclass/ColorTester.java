@@ -10,5 +10,5 @@ public class ColorTester {
 
         color1.display();
         color1.convertToHex();
-    }
+    } 
 }
