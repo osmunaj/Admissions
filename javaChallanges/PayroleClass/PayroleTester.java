@@ -3,8 +3,12 @@ public class PayroleTester {
         Employee bob = new Employee("Bob Joe", "Manager", 15.75);
         
         bob.work(8);
-        System.out.println(bob.getID());
+        bob.work(8);
+        bob.work(4);
+        bob.getHours();
+        System.out.println(bob.getHours());
 
-        bob.requestPaycheck();
+
+        System.out.println(bob.requestPaycheck());
     }
 }
